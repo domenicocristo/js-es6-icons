@@ -117,18 +117,20 @@ let icons = [
 	}
 ];
 
-// const allIcons = icons.filter((icon) => {
-// 	return icon.type == "animal, vegetable, user";
-// }
-// );
+const containerBox = getElementById("container");
 
-for (let i = 0; i < icons.length; i++) {
-		const allIcons = icons.filter((icon) => {
-			return icon.type == "animal, vegetable, user";
-		});
-		document.getElementById("container").innerHTML +=
-		`<div class="box">
-			<div class="icon"></div>
-			<div class="name">${name}</div>
-		</div>`
-}
+let creationBox = "";
+
+box.forEach((icons) => {
+	creationBox =
+	`<div class="box">
+		<div class="icon">
+			<i></i>
+		</div>
+		<div class="name">
+			<div>${icons.name}</div>
+		</div>
+	</div>`
+
+	containerBox.innerHTML += creationBox;
+});
