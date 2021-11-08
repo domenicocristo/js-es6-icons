@@ -122,8 +122,8 @@ const containerBox = document.getElementById("container");
 
 let creationBox = "";
 
-icons.forEach((box) => {
-	creationBox =
+const iconsUser = icons.filter((box) => {
+	if (box.type == "user") {
 	`<div class="box">
 		<div class="icon">
 			<i class="${box.family} ${box.prefix}${box.name} ${box.type}"></i>
@@ -132,6 +132,6 @@ icons.forEach((box) => {
 			<div>${box.name}</div>
 		</div>
 	</div>`
-
-	containerBox.innerHTML += creationBox;
+	}
 });
+containerBox.innerHTML += iconsUser;
