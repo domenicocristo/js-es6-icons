@@ -119,20 +119,19 @@ let icons = [
 ];
 
 const containerBox = document.getElementById("container");
-let filtro = prompt("type");
-let createationBox = filtro;
 
-const box = icons.filter((icon) => {
-	if (icons === type) {
+let creationBox = "";
+
+icons.forEach((box) => {
+	creationBox =
 	`<div class="box">
 		<div class="icon">
-			<i class="${createationBox.family} ${createationBox.prefix}${createationBox.name} ${createationBox.type}"></i>
+			<i class="${box.family} ${box.prefix}${box.name} ${box.type}"></i>
 		</div>
 		<div class="name">
-			<div>${createationBox.name}</div>
+			<div>${box.name}</div>
 		</div>
 	</div>`
-	}
 
-	containerBox.innerHTML += createationBox;
+	containerBox.innerHTML += creationBox;
 });
