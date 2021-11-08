@@ -12,7 +12,7 @@ body {
     height: 100px;
     width: 200px;
     display: inline-block;
-    border-radius: 20px;
+    border-radius: 15px;
     background-color: #fff;
     margin: 20px;
 }
@@ -27,4 +27,16 @@ body {
 .name {
     display: flex;
     justify-content: center;
+}
+
+.animal {
+    color: #ffa500;
+}
+
+.vegetable {
+    color: #008001;
+}
+
+.user {
+    color: #1500ff;
 }
