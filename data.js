@@ -117,18 +117,18 @@ let icons = [
 	}
 ];
 
-const containerBox = getElementById("container");
+const containerBox = document.getElementById("container");
 
 let creationBox = "";
 
-box.forEach((icons) => {
+icons.forEach((box) => {
 	creationBox =
 	`<div class="box">
 		<div class="icon">
 			<i></i>
 		</div>
 		<div class="name">
-			<div>${icons.name}</div>
+			<div>${box.name}</div>
 		</div>
 	</div>`
 
