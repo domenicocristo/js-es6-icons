@@ -2,7 +2,7 @@
 // 2. stampare in pagina i vari box 
 // 3. dare alle icone i corrispettivi colori
 
-let icone = [
+let icons = [
 	{
 		name: 'cat',
 		prefix: 'fa-',
@@ -116,3 +116,19 @@ let icone = [
 		color: 'blue'
 	}
 ];
+
+// const allIcons = icons.filter((icon) => {
+// 	return icon.type == "animal, vegetable, user";
+// }
+// );
+
+for (let i = 0; i < icons.length; i++) {
+		const allIcons = icons.filter((icon) => {
+			return icon.type == "animal, vegetable, user";
+		});
+		document.getElementById("container").innerHTML +=
+		`<div class="box">
+			<div class="icon"></div>
+			<div class="name">${name}</div>
+		</div>`
+}

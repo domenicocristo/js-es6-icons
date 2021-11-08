@@ -1,0 +1,25 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #dddddd;
+}
+
+.box {
+    height: 100px;
+    width: 200px;
+    display: inline-block;
+    border-radius: 20px;
+    background-color: #fff;
+    margin: 20px;
+}
+
+.icona {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    font-size: 30px;
+}
