@@ -1,6 +1,7 @@
 // 1. creare un box per ogni icona partendo dalla struttura fornita 
 // 2. stampare in pagina i vari box 
 // 3. dare alle icone i corrispettivi colori
+// bonus. crea un filtro per i vari tipi di icone
 
 let icons = [
 	{
