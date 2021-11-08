@@ -17,9 +17,14 @@ body {
     margin: 20px;
 }
 
-.icona {
+.icon {
     display: flex;
     justify-content: center;
     margin-top: 20px;
     font-size: 30px;
+}
+
+.name {
+    display: flex;
+    justify-content: center;
 }

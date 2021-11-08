@@ -125,7 +125,7 @@ icons.forEach((box) => {
 	creationBox =
 	`<div class="box">
 		<div class="icon">
-			<i></i>
+			<i class="${box.family} ${box.prefix}${box.name}"></i>
 		</div>
 		<div class="name">
 			<div>${box.name}</div>
