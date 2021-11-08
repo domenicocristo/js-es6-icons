@@ -1,0 +1,61 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header h1 {
+    color: #27b0dd;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+nav {
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #27b0dd;
+}
+
+nav h3 {
+    color: #fff;
+    margin-right: 10px;
+}
+
+#container {
+    background-color: #dddddd;
+}
+
+.box {
+    height: 100px;
+    width: 200px;
+    display: inline-block;
+    border-radius: 15px;
+    background-color: #fff;
+    margin: 20px;
+}
+
+.icon {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    font-size: 30px;
+}
+
+.name {
+    display: flex;
+    justify-content: center;
+}
+
+.animal {
+    color: #ffa500;
+}
+
+.vegetable {
+    color: #008001;
+}
+
+.user {
+    color: #1500ff;
+}
