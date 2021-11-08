@@ -4,7 +4,25 @@
     box-sizing: border-box;
 }
 
-body {
+header h1 {
+    color: #27b0dd;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+nav {
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #27b0dd;
+}
+
+nav h3 {
+    color: #fff;
+}
+
+#container {
     background-color: #dddddd;
 }
 
